@@ -5,7 +5,6 @@ import java.util.Random;
 
 import org.apache.poi.EncryptedDocumentException;
 import org.testng.annotations.Test;
-
 import ObjectRepository.CreateOrginzationpage;
 import ObjectRepository.HomePage;
 import ObjectRepository.OrganizationInfoPage;
@@ -14,9 +13,9 @@ import genericUtility.BaseClass;
 import genericUtility.ExcelFileUtility;
 import genericUtility.WebDriverUtility;
 
-public class ToCreateOrganizationwithChemical extends BaseClass {
+public class ToCreateOrganizationwithChemTest extends BaseClass{
 	
-
+	
 	
 	@Test(groups="Regression")
 
@@ -65,7 +64,6 @@ public class ToCreateOrganizationwithChemical extends BaseClass {
 	
 
 	
+	}
 
-}
-	
 }

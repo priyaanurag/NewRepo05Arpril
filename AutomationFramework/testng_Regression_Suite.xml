@@ -9,9 +9,9 @@
 </groups>
   <test thread-count="5" name="Test">
     <classes>
-      <class name="OrganizationTests.ToCreateOrganizationwithChemical"/>
-      <class name="OrganizationTests.ToCreateOrganizationTests"/>
-      <class name="OrganizationTests.ToCreateOrganizationwithChemial_Type"/>
+      <class name="OrganizationTests.ToCreateOrganizationwithChemTest"/>
+      <class name="OrganizationTests. ToCreateOrganizationTest"/>
+      <class name="OrganizationTests.ToCreateOrgwithChemaicalTypeTest"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

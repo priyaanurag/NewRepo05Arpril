@@ -13,9 +13,9 @@ import ObjectRepository.OrginizationPage;
 import genericUtility.BaseClass;
 import genericUtility.ExcelFileUtility;
 
-public class ToCreateOrganizationTests extends BaseClass {
+public class ToCreateOrganizationTest extends BaseClass {
 	
-	
+
 	@Test(groups="Regression")
 	public void toCreateOrganizationtest_002() throws EncryptedDocumentException, IOException
 	{
@@ -60,4 +60,5 @@ public class ToCreateOrganizationTests extends BaseClass {
 		
 		
 	}
+
 }

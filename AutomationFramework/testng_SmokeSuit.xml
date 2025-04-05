@@ -12,7 +12,7 @@
   <test thread-count="5" name="Test">
     <classes>
       <class name="ContactTests.ToCreateContactswithOrglookupimgTest"/>
-      <class name="ContactTests.ToCreateContactsTests"/>
+      <class name="ContactTests.ToCreateContactTest"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
