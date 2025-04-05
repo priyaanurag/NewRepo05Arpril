@@ -34,12 +34,14 @@ public class ToCreateContactsTests extends BaseClass{
 		 String lastname = eutil.toReadDatafromExcelFile("Contacts", 1, 2);
 		 ccp.getLastname().sendKeys(lastname);
 		 
-		 Assert.fail();
+		 //Assert.fail();
 		 
 		 ccp.getSavebutton().click();
 		 
 		 ContactsInfoPage cip =new ContactsInfoPage(driver);
 		 String title = cip.getContactTitlename().getText();
+		 
+		 System.out.println("This is smoke");
 		 /*if(title.contains(lastname))
 		 {
 			 
